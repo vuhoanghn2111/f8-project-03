@@ -268,7 +268,7 @@ a {
 .service__item:hover svg rect {
     fill: #2e80ce;
 }
-.service__item:hover path {
+.service__item:hover svg path {
     fill: #fff;
 }
 .service__item:hover {
