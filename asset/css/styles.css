@@ -195,3 +195,91 @@ a {
     object-fit: cover;
     margin-left: -6px;
 }
+/* =====================Service========================= */
+.service {
+    margin-top: 170px;
+}
+.service-top__title {
+    color: #10375c;
+    text-align: center;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -1px;
+}
+.service-top__desc {
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    color: #575f66;
+    text-align: center;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.667; /* 166.667% */
+}
+.service-content {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service__media {
+    width: calc(570 / 1170 * 100%);
+}
+.service__img {
+    width: 570px;
+    height: 570px;
+    border-radius: 12px;
+    object-fit: cover;
+    object-position: center top;
+}
+.service__item {
+    display: flex;
+    align-items: center;
+    width: 470px;
+    height: 128px;
+    border-radius: 10px;
+    background: #fff;
+}
+.service__item-content {
+    margin-left: 3px;
+}
+.services__item-title {
+    color: #10375c;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+}
+.services__item-desc {
+    margin-top: 8px;
+    width: 351px;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+}
+.service__item svg {
+    margin-left: 8px;
+}
+.service__item:hover svg rect {
+    fill: #2e80ce;
+}
+.service__item:hover path {
+    fill: #fff;
+}
+.service__item:hover {
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.05);
+}
+.service__btn {
+    margin-top: 55px;
+    min-width: 205px;
+    height: 60px;
+    border-radius: 30px;
+    line-height: 60px;
+    font-size: 1.8rem;
+    font-style: normal;
+}
