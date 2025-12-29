@@ -262,13 +262,13 @@ a {
     font-weight: 300;
     line-height: 1.75; /* 175% */
 }
-.service__item svg {
+.service__icon {
     margin-left: 8px;
 }
-.service__item:hover svg rect {
+.service__item:hover .service__icon rect {
     fill: #2e80ce;
 }
-.service__item:hover svg path {
+.service__item:hover .service__icon path {
     fill: #fff;
 }
 .service__item:hover {
