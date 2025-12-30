@@ -283,7 +283,7 @@ a {
     font-size: 1.8rem;
     font-style: normal;
 }
-/* Work */
+/* =============================Work=============================== */
 .work {
     margin-top: 170px;
 }
@@ -325,7 +325,7 @@ a {
     transform: translateY(-16px);
 }
 .work__step:hover .work__step-link {
-    color: #2E80CE;
+    color: #2e80ce;
 }
 .work__step-container {
     margin-top: 43px;
@@ -356,4 +356,67 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 1.75; /* 175% */
+}
+/* =========================feature========================= */
+.feature {
+    margin-top: 170px;
+}
+.feature .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-media {
+    width: calc(570 / 1170 * 100%);
+    height: 491px;
+    position: relative;
+}
+.feature__img-1 {
+    width: 512px;
+    height: 370px;
+    border-radius: 6px;
+    background: url(<path-to-image>) lightgray -1.5px 0px / 108.398% 100% no-repeat;
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.07);
+    object-fit: cover;
+    object-position: left center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.feature__img-2 {
+    width: 332px;
+    height: 370px;
+    border-radius: 6px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.feature__title {
+    width: 470px;
+    color: #10375c;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -1px;
+}
+.feature__desc {
+    width: 468px;
+    margin-top: 18px;
+    color: #575f66;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.6667; /* 166.667% */
+}
+.feature__btn {
+    margin-top: 38px;
+    min-width: 205px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 1.8rem;
+    font-style: normal;
+    line-height: 60px;
 }
