@@ -33,6 +33,21 @@ a {
 .btn:hover {
     opacity: 0.8;
 }
+.section__heading {
+    color: #10375c;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 120% */
+    letter-spacing: -1px;
+}
+.section__desc {
+    color: #575f66;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 166.667% */
+}
 /* ==========================Header=========================== */
 .header {
     min-height: 100vh;
@@ -161,9 +176,6 @@ a {
     margin-top: 22px;
     width: 468px;
     color: #c9d2da;
-    font-size: 1.8rem;
-    font-weight: 300;
-    line-height: 166.667%; /* 166.667% */
 }
 .hero__contact {
     margin-top: 38px;
@@ -205,25 +217,14 @@ a {
     margin-top: 170px;
 }
 .service-top__title {
-    color: #10375c;
     text-align: center;
-    font-size: 5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.2; /* 120% */
-    letter-spacing: -1px;
 }
 .service-top__desc {
     margin-top: 18px;
     margin-left: auto;
     margin-right: auto;
     width: 468px;
-    color: #575f66;
     text-align: center;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 1.667; /* 166.667% */
 }
 .service-content {
     margin-top: 70px;
@@ -289,22 +290,9 @@ a {
 .work .container {
     padding: 100px 0;
 }
-.work__title {
-    color: #10375c;
-    font-size: 5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.2; /* 120% */
-    letter-spacing: -1px;
-}
 .work__subtitle {
     margin-top: 18px;
     width: 468px;
-    color: #575f66;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 1.6667; /* 166.667% */
 }
 .work__steps {
     margin-top: 70px;
@@ -394,21 +382,10 @@ a {
 }
 .feature__title {
     width: 470px;
-    color: #10375c;
-    font-size: 5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.2; /* 120% */
-    letter-spacing: -1px;
 }
 .feature__desc {
     width: 468px;
     margin-top: 18px;
-    color: #575f66;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 1.6667; /* 166.667% */
 }
 .feature__btn {
     margin-top: 38px;
@@ -421,30 +398,44 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 38px;
 }
 .team__title {
-    color: #10375c;
     text-align: center;
-    font-size: 5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.2; /* 120% */
-    letter-spacing: -1px;
-}
-.team__btn {
-    margin-top: 38px;
 }
 .team__list {
     margin-top: 70px;
     display: flex;
     gap: 30px;
 }
-.team__img {
+.team__image {
     width: 270px;
     height: 318px;
-    object-fit: cover;
     border-radius: 6px;
     background: #eaf6ff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.team__img-1 {
+    width: 262px;
+    height: 290px;
+    object-fit: cover;
+}
+.team__img-2 {
+    width: 270px;
+    height: 290px;
+    object-fit: cover;
+}
+.team__img-3 {
+    width: 292px;
+    height: 293px;
+    object-fit: cover;
+}
+.team__img-4 {
+    width: 253px;
+    height: 290px;
+    object-fit: cover;
 }
 .team__info {
     margin-top: 18px;
@@ -482,6 +473,43 @@ a {
 }
 .team__icon:hover {
     color: #fff;
-    background: #2E80CE;
-    border-color: #2E80CE;
+    background: #2e80ce;
+    border-color: #2e80ce;
+}
+/* Install app */
+.install-app {
+    margin-top: 170px;
+}
+.install-app .container {
+    border-radius: 4px;
+    background: #2e80ce;
+}
+.install-app__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.install-app__media {
+    height: 427px;
+    position: relative;
+}
+.install-app__img {
+    position: absolute;
+    bottom: 0;
+}
+.install-app__title {
+    width: 489px;
+    color: #fff;
+}
+.install-app__desc {
+    margin-top: 18px;
+    width: 586px;
+    color: #fff;
+}
+.install-app__row {
+    margin-top: 38px;
+    display: flex;
+    gap: 28px;
 }
