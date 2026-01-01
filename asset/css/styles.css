@@ -13,6 +13,13 @@ body {
 a {
     text-decoration: none;
 }
+input,
+textarea,
+select,
+button {
+    font-family: inherit;
+    font-size: inherit;
+}
 .container {
     width: 1170px;
     max-width: calc(100vw - 48px);
@@ -91,6 +98,7 @@ a {
 }
 .logo__brand {
     display: block;
+    font-family: "Sora", sans-serif;
     font-size: 1.8em;
     font-weight: 400;
 }
@@ -647,4 +655,119 @@ a {
 .cta__btn {
     margin-top: 38px;
     margin-bottom: 100px;
+}
+/* =====================Footer===================== */
+footer {
+    margin-top: 170px;
+    background: #10375c;
+    font-family: "Open Sans", sans-serif;
+}
+footer .container {
+    padding-top: 100px;
+    padding-bottom: 42px;
+}
+/* Footer main */
+.footer__main {
+    display: flex;
+    align-items: flex-start;
+    gap: 78px;
+    position: relative;
+}
+.footer__heading {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+}
+.footer__desc {
+    color: #aab3ba;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.85714; /* 185.714% */
+}
+.footer__logo--desc {
+    margin-top: 21px;
+    font-size: 1.6rem;
+    line-height: 1.75; /* 175% */
+}
+.footer__column {
+    min-width: 134px;
+}
+.footer__column,
+.footer__social {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.footer__column--list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer__social--icon {
+    display: flex;
+    column-gap: 10px;
+}
+.footer__icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    background: #fff;
+    color: #2e80ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__icon:hover {
+    color: #fff;
+    background: #2e80ce;
+}
+.footer__action {
+    margin-top: 10px;
+    display: flex;
+    column-gap: 12px;
+}
+.footer__action input {
+    width: 212px;
+    height: 46px;
+    border-radius: 4px;
+    border: 1px solid #406181;
+    color: #9ca8b1;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.85714; /* 185.714% */
+    background: transparent;
+}
+.footer__action button {
+    outline: none;
+    border: none;
+    padding: 0;
+    color: #fff;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 185.714% */
+    min-width: 108px;
+    height: 46px;
+    border-radius: 4px;
+    background: #2e80ce;
+    cursor: pointer;
+}
+.footer__main::after {
+    content: "";
+    display: inline-block;
+    width: 1170px;
+    height: 1px;
+    background: #406181;
+    position: absolute;
+    bottom: -28px;
+}
+/* End */
+.footer__end--coppyright {
+    margin-top: 57px;
+    text-align: center;
 }
