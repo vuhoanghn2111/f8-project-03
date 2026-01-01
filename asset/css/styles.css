@@ -536,7 +536,7 @@ button {
     align-items: center;
 }
 .blog__intro {
-    width: calc(470 / 1170);
+    width: calc(470 / 1170 * 100%);
 }
 .blog__heading {
     width: 470px;
