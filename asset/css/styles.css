@@ -694,7 +694,10 @@ footer .container {
     line-height: 1.75; /* 175% */
 }
 .footer__column {
-    min-width: 134px;
+    min-width: calc(134 / 1170 * 100%);
+}
+.footer__sub--desc {
+    width: 273px;
 }
 .footer__column,
 .footer__social {
